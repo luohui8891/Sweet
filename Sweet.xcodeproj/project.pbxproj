@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1804EB7713F55DF6005DF2DD /* SweetPhotoProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804EB7513F55DF6005DF2DD /* SweetPhotoProcess.m */; };
+		1804EB7813F55DF6005DF2DD /* SweetPhotoProcess.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1804EB7613F55DF6005DF2DD /* SweetPhotoProcess.xib */; };
+		189B060E140BADAF002DA733 /* SweetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B060D140BADAF002DA733 /* SweetResult.m */; };
+		189B0616140BB627002DA733 /* SweetEffects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189B0615140BB627002DA733 /* SweetEffects.plist */; };
+		189B0653140BBF03002DA733 /* SweetTemplate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189B0652140BBF03002DA733 /* SweetTemplate.plist */; };
+		189B0695140BC505002DA733 /* ButtonListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B0694140BC505002DA733 /* ButtonListView.m */; };
+		189B0703140BD4F4002DA733 /* SweetResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189B0702140BD4F4002DA733 /* SweetResult.xib */; };
+		189FBF4113F6489500F5C422 /* SweetPoseHeart in Resources */ = {isa = PBXBuildFile; fileRef = 189FBF3513F6489500F5C422 /* SweetPoseHeart */; };
+		18C51A2B13F40C94008FFDC5 /* SweetTakePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C51A2913F40C94008FFDC5 /* SweetTakePhoto.m */; };
+		18C51A8813F41466008FFDC5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C51A8713F41466008FFDC5 /* MobileCoreServices.framework */; };
+		18C51A8A13F41483008FFDC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C51A8913F41483008FFDC5 /* QuartzCore.framework */; };
+		1D3623260D0F684500981E51 /* SweetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SweetAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SweetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SweetViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SweetViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1804EB7413F55DF6005DF2DD /* SweetPhotoProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweetPhotoProcess.h; sourceTree = "<group>"; };
+		1804EB7513F55DF6005DF2DD /* SweetPhotoProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SweetPhotoProcess.m; sourceTree = "<group>"; };
+		1804EB7613F55DF6005DF2DD /* SweetPhotoProcess.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SweetPhotoProcess.xib; sourceTree = "<group>"; };
+		189B060C140BADAF002DA733 /* SweetResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweetResult.h; sourceTree = "<group>"; };
+		189B060D140BADAF002DA733 /* SweetResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SweetResult.m; sourceTree = "<group>"; };
+		189B0615140BB627002DA733 /* SweetEffects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SweetEffects.plist; sourceTree = "<group>"; };
+		189B0652140BBF03002DA733 /* SweetTemplate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SweetTemplate.plist; sourceTree = "<group>"; };
+		189B0693140BC505002DA733 /* ButtonListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonListView.h; sourceTree = "<group>"; };
+		189B0694140BC505002DA733 /* ButtonListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonListView.m; sourceTree = "<group>"; };
+		189B0702140BD4F4002DA733 /* SweetResult.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SweetResult.xib; sourceTree = "<group>"; };
+		189FBF3513F6489500F5C422 /* SweetPoseHeart */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SweetPoseHeart; sourceTree = "<group>"; };
+		189FC06013F674C900F5C422 /* SweetHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweetHeader.h; sourceTree = "<group>"; };
+		18C51A2813F40C94008FFDC5 /* SweetTakePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweetTakePhoto.h; sourceTree = "<group>"; };
+		18C51A2913F40C94008FFDC5 /* SweetTakePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SweetTakePhoto.m; sourceTree = "<group>"; };
+		18C51A8713F41466008FFDC5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18C51A8913F41483008FFDC5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SweetAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweetAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SweetAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SweetAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Sweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SweetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SweetViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweetViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SweetViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Sweet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sweet_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Sweet-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sweet-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				18C51A8813F41466008FFDC5 /* MobileCoreServices.framework in Frameworks */,
+				18C51A8A13F41483008FFDC5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SweetAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SweetAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SweetViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SweetViewController.m */,
+				18C51A2813F40C94008FFDC5 /* SweetTakePhoto.h */,
+				18C51A2913F40C94008FFDC5 /* SweetTakePhoto.m */,
+				189B060C140BADAF002DA733 /* SweetResult.h */,
+				189B060D140BADAF002DA733 /* SweetResult.m */,
+				189B0702140BD4F4002DA733 /* SweetResult.xib */,
+				189B0693140BC505002DA733 /* ButtonListView.h */,
+				189B0694140BC505002DA733 /* ButtonListView.m */,
+				1804EB7413F55DF6005DF2DD /* SweetPhotoProcess.h */,
+				1804EB7513F55DF6005DF2DD /* SweetPhotoProcess.m */,
+				1804EB7613F55DF6005DF2DD /* SweetPhotoProcess.xib */,
+				189FC06013F674C900F5C422 /* SweetHeader.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Sweet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Sweet_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				189FBF3513F6489500F5C422 /* SweetPoseHeart */,
+				2899E5210DE3E06400AC0155 /* SweetViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Sweet-Info.plist */,
+				189B0615140BB627002DA733 /* SweetEffects.plist */,
+				189B0652140BBF03002DA733 /* SweetTemplate.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				18C51A8713F41466008FFDC5 /* MobileCoreServices.framework */,
+				18C51A8913F41483008FFDC5 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Sweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sweet" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sweet;
+			productName = Sweet;
+			productReference = 1D6058910D05DD3D006BFB54 /* Sweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sweet" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Sweet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SweetViewController.xib in Resources */,
+				1804EB7813F55DF6005DF2DD /* SweetPhotoProcess.xib in Resources */,
+				189FBF4113F6489500F5C422 /* SweetPoseHeart in Resources */,
+				189B0616140BB627002DA733 /* SweetEffects.plist in Resources */,
+				189B0653140BBF03002DA733 /* SweetTemplate.plist in Resources */,
+				189B0703140BD4F4002DA733 /* SweetResult.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SweetAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SweetViewController.m in Sources */,
+				18C51A2B13F40C94008FFDC5 /* SweetTakePhoto.m in Sources */,
+				1804EB7713F55DF6005DF2DD /* SweetPhotoProcess.m in Sources */,
+				189B060E140BADAF002DA733 /* SweetResult.m in Sources */,
+				189B0695140BC505002DA733 /* ButtonListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sweet_Prefix.pch;
+				INFOPLIST_FILE = "Sweet-Info.plist";
+				PRODUCT_NAME = Sweet;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sweet_Prefix.pch;
+				INFOPLIST_FILE = "Sweet-Info.plist";
+				PRODUCT_NAME = Sweet;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shuangsheng Liu (4TL5NBRA5Z)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "92094FF0-A17B-4143-A168-411875ECEA18";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shuangsheng Liu (4TL5NBRA5Z)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "92094FF0-A17B-4143-A168-411875ECEA18";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
